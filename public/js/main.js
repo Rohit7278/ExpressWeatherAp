@@ -19,9 +19,9 @@ if (cityValue === "") {
     datahide.classList.add("data_hide")
 } else {
     try{
-         let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityValue}&units=metric&appid=cb204b76afe8ec793f6a17476183a8db`;
+         let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&units=metric&appid=cb204b76afe8ec793f6a17476183a8db`;
          const response = await fetch(url);
-        //  console.log(response)
+         console.log(response)
         const data = await response.json()
         console.log(data)
 
