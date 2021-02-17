@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+   {{>navbar}}
+
+    <!-- main-header yaha se -->
+    <div class="container-fluid main-header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side div -->
+             <div class="col-md-6 col-12 main_header_right align-items-center">
+                <figure>
+                    <img src="img/about.jpg" alt="about me img" class = "img-fluid" title = "roohiit">
+                </figure>
+            </div>
+            <div class="col-md-6 col-12 main_header_left">
+              <p class="header_left_p">Welcome to my profile</p>
+              <h2 class="header_left_h2">
+               I am a <span class = "text_clr">MERN Stack Developer. </span> Come and play with this <span class = "text_clr">Weather app </span>
+              </h2>
+              <a href="https://www.instagram.com/rohit_verma.rv/?hl=en" target="_blank"><button>About Me</button></a>
+            </div>
+            <!-- right side div -->
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{>footer}}
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

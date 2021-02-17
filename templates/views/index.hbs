@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>headerlinks}}
+  </head>
+  <body>
+   {{>navbar}}
+
+    <!-- main-header yaha se -->
+    <div class="container-fluid main-header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side div -->
+            <div class="col-md-6 col-12 main_header_left">
+              <p class="header_left_p">Welcome to RoHitWeather App</p>
+              <h2 class="header_left_h2">
+                Get the latest <span class = "text_clr">Weather</span> Information of your City
+              </h2>
+              <a href="/weather"><button>Click Here</button></a>
+            </div>
+            <!-- right side div -->
+            <div class="col-md-6 col-12 main_header_right">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/weather1.jpg" class="" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/weather2.jpg" class="" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/weather1.jpg" class="" alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {{>footer}}
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
