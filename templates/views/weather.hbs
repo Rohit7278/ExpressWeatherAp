@@ -66,36 +66,6 @@
         }
         getCurDay();
 
-  const getCurTime = () => {
-
-            var months = [
-                "Jan",
-                "Feb",
-                "March",
-                "April",
-                "May",
-                "June",
-                "July",
-                "Aug",
-                "Sept",
-                "Oct",
-                "Nov",
-                "Dec",
-
-            ]
-
-          let now = new Date();
-          let month = now.getMonth() + 1;
-          
-          let date = months[now.getDate()];
-        
-         return `${month} ${date}`
-        
-     
-        }
-
-     today_date.innerText = getCurTime();
-
     </script>
   </body>
 </html>

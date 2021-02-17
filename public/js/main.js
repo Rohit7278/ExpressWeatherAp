@@ -8,9 +8,6 @@ const temp_status = document.getElementById("temp_status");
 const datahide = document.querySelector(".middle_layer")
 
 
-
-
-
 const getInfo = async (event) => {
     event.preventDefault();
 
